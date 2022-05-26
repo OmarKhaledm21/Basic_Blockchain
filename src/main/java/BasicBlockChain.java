@@ -3,7 +3,7 @@ import com.google.gson.GsonBuilder;
 
 public class BasicBlockChain {
     public static ArrayList<Block> blockchain = new ArrayList<>();
-    public static int difficulty = 5;
+    public static int difficulty = 1;
 
     public static void main(String[] args) {
         //add our blocks to the blockchain list
